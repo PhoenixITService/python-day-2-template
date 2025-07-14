@@ -1,36 +1,65 @@
-# Day 1 Assignment – GitHub Submission
+# Day 2 Assignment – Python Basic Data Types
 
-Welcome! Please follow the instructions carefully to complete your submission.
-
----
-
-## ✅ Task:
-
-Upload the following **two files** to this repository:
-
-1. A `.py` (Python file)
-2. A `.ipynb` (Jupyter Notebook file)
+Welcome! Please follow the instructions below carefully.
 
 ---
 
-## Content Requirement:
+## ✅ Task 1: Rectangle Area Calculator
 
-Both files **must include** the following line:
+- Create two float variables:
+```python
+  length = 12.35
+  width = 14.67
+```
+
+* Calculate the area of the rectangle.
+* Print the result as an **integer**.
+
+🧾 **Expected Output:**
+
+```
+Area: 181
+```
+
+---
+
+## ✅ Task 2: Decode the Message
+
+You are given a string:
 
 ```python
-print("Hello, World")
-````
+data = "Luna42Kai3.14True#Knight"
+```
+
+Perform the following:
+
+1. Extract `"Luna"` and convert it to **uppercase**.
+2. Extract `42` and **add 8**.
+3. Extract `3.14` and **multiply it by 2**.
+4. Slice `"Knight"` using **negative indexing** and **reverse it**.
+
+🧾 **Expected Output:**
+
+```
+Name: LUNA
+42 + 8 = 50
+3.14 * 2 = 6.28
+Reversed Title: thginK
+```
 
 ---
 
-## File Naming Convention:
+## File Naming Format
 
-Use your **first name** in the filename.
+Use your **first name** in the file name:
 
-* Example:
+* `yourname_area.py`
+* `yourname_decode.py`
 
-  * `anand_hello.py`
-  * `anand_hello.ipynb`
+Example:
+
+* `anand_area.py`
+* `anand_decode.py`
 
 ---
 
@@ -51,5 +80,6 @@ git push origin main
 ```
 
 4. Done! Your work is submitted.
+5. Go to **Google Classroom** and click **"Mark as Done"**.
 
 ---
